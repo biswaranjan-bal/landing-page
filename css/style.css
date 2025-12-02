@@ -1,3 +1,22 @@
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 /* Global Reset and Box Model */
 * {
     box-sizing: border-box;
